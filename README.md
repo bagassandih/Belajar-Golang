@@ -1,3 +1,2 @@
-# BelajarGolang # \n
-Folder [pertama] adalah awalan pembelajaran, setelah itu tanpa diurut
-Belajar Golang dasar untuk BackEnd Developer
+#Belajar Golang 
+Folder pertama adalah awalan pembelajaran, tanpa urutan pembelajaran
