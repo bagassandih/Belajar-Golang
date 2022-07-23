@@ -40,8 +40,19 @@ kata:= "malamwminggu"
 subkata:= kata[5:len(kata)]
 fmt.Println(subkata)
 fmt.Println( kata[6:len(kata)] )
+fmt.Println()  
 
 // replace
-ini := ""
+ini := "Hari ini cuma dapat satxu"
+itu := strings.Replace(ini, "x", "", -1)
+fmt.Printf("%s\n", itu)
+fmt.Println( strings.Replace(ini, "satxu", "dua belas", -1) )
+
+// insert string
+warna := "Merah"
+index := len(warna)
+warna_replace := warna[:index] + " Muda" + warna[index:]
+fmt.Println(warna, warna_replace)
+fmt.Println(warna[:index] +" Tua")
 
 }

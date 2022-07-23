@@ -9,7 +9,6 @@ func pangkat (base int, pangkat int) int {
 
 	}
 	return result
-
 }
 
 func main(){
