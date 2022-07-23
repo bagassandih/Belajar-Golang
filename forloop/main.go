@@ -31,7 +31,20 @@ func main(){
 	}
 
 	// _ adalah variabel dump(menampung nilai yg tidak digunakan )
+	
 
-
+	//latihan 
+	
+	tambahSendiri(1)
 
 }
+
+//func diluar func main akan tetap dibaca
+func tambahSendiri(angka int) int {
+		for angka < 5 {
+		fmt.Println ("Soal:", angka, "+", angka)
+		angka += angka
+		fmt.Println ("hasil:", angka)
+		}
+	return angka
+	}
