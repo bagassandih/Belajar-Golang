@@ -55,4 +55,21 @@ warna_replace := warna[:index] + " Muda" + warna[index:]
 fmt.Println(warna, warna_replace)
 fmt.Println(warna[:index] +" Tua")
 
+// split di bagi ke dalam array
+nama := "Bagas Arisandi Hidayat"
+fmt.Println( strings.Split(nama, " ") )
+
+// ToLower string menjadi huruf kecil
+fmt.Println( strings.ToLower(nama) )
+
+// ToUpper &ToTitle string menjadi huruf besar
+fmt.Println( strings.ToUpper(nama) )
+
+// Trim biasa digunakan untuk parsing menghilangkan spasi di kiri dan kanan
+fmt.Println( strings.Trim("  Bagas Arisandi     ", " ") )
+
+//ReplaceAll replace semuanya 
+fmt.Println( strings.ReplaceAll("Bagis Arisandi\nBagis Hidayat", "Bagis", "Bagas") )
+
+
 }
