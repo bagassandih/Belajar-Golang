@@ -37,7 +37,7 @@ func main() {
 		fmt.Println(key, "pabriknya", value )
 	}
 
-// cek value map berdasarkan key
+// cek  map berdasarkan key
 	cek := mobaGame["Dota 2"] //cek valuenya
 	fmt.Println(cek) 
 // map
